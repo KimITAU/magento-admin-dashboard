@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+    <name>Kimit_Admin</name>
+    <version>0.1.0</version>
+    <stability>alpha</stability>
+    <license uri="http://opensource.org/licenses/GPL-3.0">GPL v3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Adds an Orders Summary to the admin dashboard</summary>
+    <description>Adds a list of Orders to the Dashboard on the admin homepage. &#xD;
+The orders are a list of ones that need some form of action</description>
+    <notes>First preview release</notes>
+    <authors><author><name>John Tranter</name><user>kimit</user><email>john@kimit.com.au</email></author></authors>
+    <date>2014-12-23</date>
+    <time>06:45:47</time>
+    <contents><target name="magelocal"><dir name="Kimit"><dir name="Admin"><dir name="Block"><dir name="Dashboard"><dir name="Tab"><file name="Welcome.php" hash="19dfd6dfeacc3c7a55971090c9341c2d"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="b8b91b45db0013a217001e7f7af5b096"/></dir><dir name="Model"><file name="Observer.php" hash="3bf8e1194899b3f238510bec706a1729"/></dir><dir name="etc"><file name="config.xml" hash="34a8f1b119fedd9a90241e57506d755e"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Kimit_Admin.xml" hash="6b96c7fc5bc0e826580f6583fbef7b74"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.9.0</max></php></required></dependencies>
+</package>
